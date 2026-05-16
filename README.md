@@ -122,3 +122,6 @@ ANTHROPIC_API_KEY=sk-ant-... pytest tests/ -v
 - **Schema compliance**: Enforced by Pydantic models + catalog validation layer
 - **Recall@10**: Full catalog in prompt enables high recall; ordering biased toward role-specific technical tests first
 - **Behavior probes**: Covered by explicit system prompt rules and post-processing validation
+
+  ## Public API endpoint URL
+  - https://shl-recommender-nv4l.onrender.com
